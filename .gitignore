@@ -1,6 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/django,venv,linux,python,windows,images,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=django,venv,linux,python,windows,images,macos
 
+### Custom ###
+Pipfile
+Pipfile.lock
+
 ### Django ###
 *.log
 *.pot
