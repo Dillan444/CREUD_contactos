@@ -1,7 +1,9 @@
+# third parties
 from django.shortcuts import render
 from django.http import HttpResponse
 
-# Create your views here.
+# local
+
 
 def index(request):
-    return HttpResponse('Hola , Mundo')
+    return render(request, 'home.html')
