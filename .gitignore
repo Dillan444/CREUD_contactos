@@ -4,6 +4,7 @@
 ### Custom ###
 Pipfile
 Pipfile.lock
+migrations/
 
 ### Django ###
 *.log
