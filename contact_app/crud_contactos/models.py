@@ -8,9 +8,9 @@ class CrudContacts(models.Model):
     last_name = CharField(max_length=50)
     company = CharField(max_length=100)
     job_title = CharField(max_length=50)
-    phone = CharField(max_length=12)
+    phone = CharField(max_length=15)
     email = EmailField(max_length=100)
-    cel_phone = CharField(max_length=12)
+    cel_phone = CharField(max_length=15)
     note = CharField(max_length=250)
 
     def __str__(self) -> str:
