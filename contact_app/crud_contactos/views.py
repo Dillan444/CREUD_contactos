@@ -7,6 +7,7 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request, 'home.html')
+<<<<<<< HEAD
 
 
 def new_contact(request):
@@ -23,3 +24,4 @@ def contact_delete(request, contact_id):
 
 def contact_detail(request, contact_id):
     return render(request, "contact_detail.html", {"contact_id": contact_id})
+>>>>>>>>> Temporary merge branch 2
