@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+{% block title %}Actualizar contacto{% endblock %}
+{% block content %}    
+  <div class="container-fluid">
+    <div class="row">
+      <h2>Contacto</h2>
+    </div>
+    <table border="">
+      <tr>
+        <td>{{contact_id}}</td>
+        <td><input type="text" value="nombre"></td>
+        <td><input type="text" value="información"></td>
+      </tr>
+    </table>
+
+    <button>Actualizar</button>
+  </div>
+{% endblock %}
