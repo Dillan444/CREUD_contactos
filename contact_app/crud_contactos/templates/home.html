@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+{% block title %}Inicio{% endblock %}
+{% block content %}    
+  <div class="container-fluid">
+    <div class="row">
+      <h2>Contactos</h2>
+    </div>
+    <div>
+      {% for contact in show_contacts %}
+        <div style="margin-bottom: 1rem;">
+          <div>
+          {{ contact.first_name }} {{ contact.last_name }}
+          </div>
+          <div>
+          {{ contact.email }}
+          </div>
+          <div>
+          {{ contact.company }} - {{ contact.job_title }}
+          </div>
+          <div>
+          {{ contact.cel_phone }}
+          </div>  
+        </div>        
+      {% endfor %}
+    </div>
+  </div>
+{% endblock %}
